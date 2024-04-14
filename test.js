@@ -2,6 +2,7 @@ const { test, expect } = require("@playwright/test");
 const { chromium } = require("playwright");
 const fs = require("fs");
 const objectsToCsv = require("objects-to-csv");
+const ObjectsToCsv = require("objects-to-csv");
 
 test("Save Hacker News Articles to CSV", async ({ page }) => {
   // launch browser
@@ -42,13 +43,13 @@ test("Save Hacker News Articles to CSV", async ({ page }) => {
   });
 
   // Call the function to save Hacker News articles
-  await saveHackerNewsArticles();
+  await ObjectsToCsv();
 
   // Assertions
   expect(page.$$eval).toHaveBeenCalledWith(".storylink", expect.any(Function));
   expect(mockObjectsToCsv).toHaveBeenCalledWith(mockArticles);
   expect(mockObjectsToCsv().toDisk).toHaveBeenCalledWith(
-    "./hacker_news_articles.csv"
+    "./csv/hacker_news_articles"
   );
 
   // Close the browser

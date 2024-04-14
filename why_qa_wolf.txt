@@ -1,7 +1,16 @@
-I believe that QA Wlf is looking for a Software Engineer with strong automation testing skill,
- and familiarity with  Jvascript / Playwright for creating and maintaining tests.
 
- I have a background in full stack web development. 
- I have experience with technologies like HTML, CSS, JavaScript, Node.js and Express.js.
+I'm drawn to QA Wolf because of its commitment to revolutionizing automated testing with innovative solutions.
+ As a Software Engineer deeply passionate about automation testing, I'm excited about the opportunity to leverage my skills in JavaScript, and I am commited to master Playwright 
+ so as to contribute to creating and maintaining robust test suites.
 
-  Working for QA Wolf in the Role of Junior Software Engineer, is going to help me to expand my skill set. 
+With a solid background in full-stack web development, Iam honing my expertise in technologies such as HTML, CSS, JavaScript, Node.js, and Express.js and React.
+This foundation equips me with a holistic understanding of web applications, allowing me to approach testing challenges with both depth and breadth.
+
+Joining QA Wolf as a Junior Software Engineer presents a fantastic opportunity for professional growth. 
+I see it as a platform to not only apply my existing skills but also to expand them significantly. 
+The dynamic environment at QA Wolf promises exposure to cutting-edge technologies and methodologies, 
+which aligns perfectly with my career aspirations.
+
+Moreover, I'm enthusiastic about collaborating with the talented team at QA Wolf, sharing knowledge, 
+and collectively pushing the boundaries of what's possible in automated testing. 
+I believe that my proactive mindset, coupled with my technical acumen, will enable me to make valuable contributions to QA Wolf's mission of delivering top-notch testing solutions.
