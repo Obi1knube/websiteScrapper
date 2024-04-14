@@ -1,6 +1,34 @@
 # 🐺 QA Wolf Take Home Assignment
 
-Welcome to the QA Wolf take home assignment for our [QA Engineer](https://www.notion.so/qawolf/QA-Wolf-QA-Engineer-Remote-156203a1e476459ea5e6ffca972d0efe) role! We appreciate your interest and look forward to seeing what you come up with.
+### User Story
+
+```md
+GIVEN a starter code to write a script using Playwright to scrape data from Hacker News.
+WHEN I run `npm i` to install the necessary node modules
+ALSO install any other required dependencies that the project need.
+Create a basic script  on  [Hacker News](https://news.ycombinator.com/)using JavaScript and Microsoft's [Playwright](https://playwright.dev/) framework.
+```
+
+## Acceptance Criteria
+
+```md
+
+
+WHEN I run the script with `node index.js`
+THEN the script should navigate to Hacker News and scrape the title and URL of the top 10 articles
+
+WHEN the script finishes scraping
+THEN the data should be saved to a CSV file
+
+WHEN I review the CSV file
+THEN I should see the titles and URLs of the top 10 articles from Hacker News
+
+WHEN I run the script
+THEN I should not encounter any errors or exceptions
+
+WHEN I run the script multiple times
+THEN the CSV file should be updated with the latest data without duplicating entries
+```
 
 ## Instructions
 
